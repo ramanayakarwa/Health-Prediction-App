@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 from fpdf import FPDF  # works with fpdf2
 
+
 # ------------------ Page Setup ------------------
 st.set_page_config(page_title="Health Prediction Portal", layout="wide")
 st.title("🩺 Comprehensive Health Prediction Portal")
