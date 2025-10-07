@@ -1,8 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from fpdf2 import FPDF
-
+from fpdf import FPDF  # works with fpdf2
 
 # ------------------ Page Setup ------------------
 st.set_page_config(page_title="Health Prediction Portal", layout="wide")
